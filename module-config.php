@@ -1,8 +1,8 @@
 <?php
 $dbhost="localhost";
-$dbuser="uxer";
-$dbpass="LZ<Ua27_as.B";
-$dbname="vyo";
+$dbuser=""; //your db username
+$dbpass=""; //your db password
+$dbname=""; //your db name
 
 $link = mysql_connect($dbhost, $dbuser, $dbpass); 
 if (!$link) {
